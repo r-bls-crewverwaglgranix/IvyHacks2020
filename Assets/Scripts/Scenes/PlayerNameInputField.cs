@@ -14,7 +14,7 @@ namespace Com.Bcgvvn.IvyHacks2020
 	{
 		#region Private Constants
 
-		const string playernamePrefKey = "PlyaerName";
+		const string playernamePrefKey = "PlayerName";
 
 		#endregion
 
@@ -24,7 +24,7 @@ namespace Com.Bcgvvn.IvyHacks2020
 	    // Start is called before the first frame update
 	    void Start()
 	    {
-	    	string defaultname = string.Empty;
+	    	string defaultName = string.Empty;
 	    	InputField _inputField = this.GetComponent<InputField>();
 	    	if (_inputField!=null)
 	    	{
